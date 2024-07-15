@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Recursive:wght@300..1000&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+</head>
+
+<body>
+
+
+
+    <div class="loading d-none" id="loadingScreen">
+        <span class="loader" id="loaderAnimation"></span>
+
+    </div>
+    <div class="container">
+
+        <!-- Fixed Navbar -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top w-75mx-auto shadow m-3 ">
+            <div class="container-fluid">
+                <a class="navbar-brand text-uppercase" href="#">
+                    <img src="imgs/logo-sm.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+                    Game Reviews
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 menu">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">MMORPG</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">SHOOTER
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">SAILING</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">PERMADEATH</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">SUPERHERO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">PIXEL</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+
+        </nav>
+
+        <!-- Games Cards -->
+
+        <section class="game-cards mt-5 pt-5 ">
+            <div class="row g-4" id="gamesData">
+            </div>
+
+        </section>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script type="module" src="js/script.js"></script>
+</body>
+
+</html>
